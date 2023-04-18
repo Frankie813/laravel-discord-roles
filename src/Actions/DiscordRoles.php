@@ -15,7 +15,7 @@ class DiscordRoles
         $this->httpClient = new Client([
             'base_uri' => 'https://discord.com/api/v9/',
             'headers' => [
-                'Authorization' => "Bot MTA4Nzc2Njk3MjY1NTIyMjc5NA.G2kzBw.O7iXDoByQka4cgouGvlT8l0BrBUZf7a5mVusMM",
+                'Authorization' => "Bot $token",
                 'Content-Type' => 'application/json',
             ],
         ]);
