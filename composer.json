@@ -2,7 +2,7 @@
     "name": "frankie813/laravel-discord-roles",
     "description": "A Laravel package for attaching and detaching Discord roles.",
     "type": "laravel-plugin",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "autoload": {
         "psr-4": {

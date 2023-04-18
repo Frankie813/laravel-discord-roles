@@ -10,7 +10,7 @@ class DiscordRoles
 
     public function __construct($botToken = null)
     {
-        $token = $botToken ?? config('discord-embeds.bot_token');
+        $token = $botToken ?? config('discord-roles.bot_token');
 
         $this->httpClient = new Client([
             'base_uri' => 'https://discord.com/api/v9/',
