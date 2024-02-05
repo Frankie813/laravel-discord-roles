@@ -7,7 +7,7 @@ A Laravel package for easily attaching and detaching Discord roles.
 You can install the package via composer:
 
 ```bash
-composer require yourusername/laravel-discord-roles
+composer require Frankie813/laravel-discord-roles
 ```
 
 ## Configuration
@@ -15,7 +15,7 @@ composer require yourusername/laravel-discord-roles
 Publish the configuration file (optional):
 
 ```bash
-php artisan vendor:publish --provider="Yourusername\LaravelDiscordRoles\LaravelDiscordRolesServiceProvider"
+php artisan vendor:publish --provider="Frankie813\LaravelDiscordRoles\LaravelDiscordRolesServiceProvider"
 
 ```
 
@@ -30,7 +30,7 @@ DISCORD_BOT_TOKEN=your_bot_token_here
 Use the package in your Laravel application by importing the main class:
 
 ```php
-use Yourusername\LaravelDiscordRoles\LaravelDiscordRoles;
+use Frankie813\LaravelDiscordRoles\LaravelDiscordRoles;
 
 $discordRoles = new LaravelDiscordRoles(env('DISCORD_BOT_TOKEN'));
 
@@ -48,7 +48,7 @@ $result = $discordRoles->detachRole($guildId, $userId, $roleId);
 Or, if you prefer using the facade:
 
 ```php
-use Yourusername\LaravelDiscordRoles\Facades\LaravelDiscordRoles;
+use Frankie813\LaravelDiscordRoles\Facades\LaravelDiscordRoles;
 
 $guildId = 'guild_id';
 $userId = 'user_id';
