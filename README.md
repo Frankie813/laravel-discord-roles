@@ -7,7 +7,7 @@ A Laravel package for easily attaching and detaching Discord roles.
 You can install the package via composer:
 
 ```bash
-composer require Frankie813/laravel-discord-roles
+composer require frankie813/laravel-discord-roles
 ```
 
 ## Configuration
